@@ -1,0 +1,5 @@
+{
+  "name": "OpenRocket Codespace",
+  "build": { "dockerfile": "Dockerfile" },
+  "forwardPorts": [8080]
+}
