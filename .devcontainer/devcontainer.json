@@ -1,5 +1,7 @@
 {
   "name": "OpenRocket Codespace",
   "build": { "dockerfile": "Dockerfile" },
-  "forwardPorts": [8080]
+  "forwardPorts": [8080],
+  "postStartCommand": "bash .devcontainer/start-openrocket.sh"
 }
+
