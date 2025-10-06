@@ -11,8 +11,7 @@ This setup requires a few manual steps to open the VNC page.
 2. Open the terminal (**Terminal → New Terminal**).  
 3. Run the startup script:
 
-```bash
-bash .devcontainer/start-openrocket.sh
+`bash .devcontainer/start-openrocket.sh`
 
 Open port 8080 in a new browser window.
 Add vnc.html to the end of the website URL and click 'Connect'.
